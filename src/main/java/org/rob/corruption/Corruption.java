@@ -56,6 +56,7 @@ public class Corruption {
 	public static void main(String args[]) throws InterruptedException, ExecutionException {
 		if (args.length != 2) {
 			System.out.println("<num files> <num threads>");
+			return;
 		}
 		Corruption corruption = new Corruption(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
 		corruption.start();
