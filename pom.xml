@@ -26,8 +26,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>2.5.1</version>
           <configuration>
-    	      <source>1.8</source>
-    	      <target>1.8</target>
+              <source>1.8</source>
+              <target>1.8</target>
           </configuration>
         </plugin>
 
@@ -43,14 +43,14 @@
               <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
           </configuration>
-  <executions>
-    <execution>
-      <phase>package</phase> <!-- bind to the packaging phase -->
-      <goals>
-        <goal>single</goal>
-      </goals>
-    </execution>
-  </executions>
+          <executions>
+            <execution>
+              <phase>package</phase> <!-- bind to the packaging phase -->
+              <goals>
+                <goal>single</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
 
       </plugins>
